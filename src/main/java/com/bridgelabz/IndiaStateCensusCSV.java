@@ -5,6 +5,8 @@ import com.opencsv.bean.CsvBindByName;
 public class IndiaStateCensusCSV {
 
 
+
+
     public String state;
 
     public int population;

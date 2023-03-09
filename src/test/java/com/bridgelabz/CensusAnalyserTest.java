@@ -26,6 +26,7 @@ public class CensusAnalyserTest {
 
 
     // UC1 - Test cases for Indian State Census Information
+
     @Test
     public void given_IndianCensusCSVFile_ReturnsCorrectRecords() throws CensusAnalyserException {
         int numOfRecords = censusAnalyser.loadIndiaCensusData(INDIA_CENSUS_CSV_FILE_PATH);
